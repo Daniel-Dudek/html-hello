@@ -1,0 +1,53 @@
+body{
+    background: grey;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+.instagramHeaderContainer {
+    width: 600px;
+    margin: auto;
+}
+
+header {
+    background: white;
+    padding: 12px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.instagramPostContainer {
+    width: 600px;
+    margin: auto;    
+}
+
+.instagramPost {
+    background: white;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.instagramPostHeaderContainer div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+
+.instagramPostHeaderContainer div:last-child {
+    display: inline-block;
+    width: 20%;
+    text-align: end;
+    padding-right: 10px;
+    color: grey;
+}
+
+.instagramPost img {
+    width: 100%;
+}
+
+.instagramPost h2, .instagramPost p {
+    padding: 10px;
+    margin: 0;
+}
